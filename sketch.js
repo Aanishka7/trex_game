@@ -33,7 +33,7 @@ function preload(){
 
 function setup() {
   createCanvas(600, 200);
-  
+   score = 0;
   trex = createSprite(50,180,20,50);
   trex.addAnimation("running", trex_running);
   trex.scale = 0.5; 
@@ -60,7 +60,7 @@ function setup() {
   GameOver.scale=0.3;
    GameOver.visible=false;
   
-  score = 0;
+ 
 }
 
 function draw() {
